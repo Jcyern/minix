@@ -6,7 +6,7 @@
 #include <unistd.h>   
 #include <stdlib.h>  
 
-
+#define max_depth 128
 int cmpfunc(const void *a, const void *b) {
     const char *s1 = *(const char **)a;
     const char *s2 = *(const char **)b;
@@ -14,22 +14,29 @@ int cmpfunc(const void *a, const void *b) {
 }
 
 
-void print_indent(int level, int is_last) {
+void print_indent(int level,  int is_last, int levels[]) {
     for (int i = 0; i < level; i++) {
-        printf("│   ");
-    }
-    if (level > 0) {
-        if (is_last) {
-            printf("└── ");
-        } else {
-            printf("├── ");
+        if(levels[i])
+        {
+            printf("|   "); 
         }
+        else
+        {
+            printf("    ");  // espacios para mantener alineación
+        }
+        
     }
+        if (is_last) {
+            printf("`-- ");
+        } else {
+            printf("+-- ");
+        }
+
 }
 
 
 
-void tree (const char* path , int level)
+void tree (const char* path , int level, int levels[])
 {
     char **names_array = NULL ;
     int count = 0;
@@ -79,12 +86,13 @@ void tree (const char* path , int level)
             continue;
         }
 
-        print_indent(level, i == count-1);
+        levels[level] = (i < count - 1);
+        print_indent(level, i == count-1,levels);
         printf("%s\n", names_array[i]);
 
          // Si es directorio realizar la recursion
         if (S_ISDIR(info.st_mode) ) {
-            tree(buffer, level+1);
+            tree(buffer, level+1,levels);
         }
 
         free(names_array[i]);
@@ -106,7 +114,8 @@ int main(int argc, char const *argv[])
         path = argv[1]; //pasar el path
     }
 
-    tree(path,1);
+    int levels[max_depth] = {0};
+    tree(path,0, levels);
 
     return 0;
 }
