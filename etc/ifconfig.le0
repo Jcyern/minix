@@ -1,0 +1,2 @@
+up
+!dhcpcd -qM $int

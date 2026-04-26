@@ -1,0 +1,113 @@
+
+
+
+
+!
+!
+!
+!
+!
+
+Xcursor.theme: whiteglass
+
+
+
+xlogin*login.translations: #override \
+	Ctrl<Key>R: abort-display()\n\
+	<Key>F1: set-session-argument(failsafe) finish-field()\n\
+	<Key>Delete: delete-character()\n\
+	<Key>Left: move-backward-character()\n\
+	<Key>Right: move-forward-character()\n\
+	<Key>Home: move-to-begining()\n\
+	<Key>End: move-to-end()\n\
+	Ctrl<Key>KP_Enter: set-session-argument(failsafe) finish-field()\n\
+	<Key>KP_Enter: set-session-argument() finish-field()\n\
+	Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
+	<Key>Return: set-session-argument() finish-field()
+
+xlogin*greeting: Welcome to CLIENTHOST
+xlogin*namePrompt: \040\040\040\040\040\040\040Login:
+xlogin*fail: Login incorrect
+
+#if WIDTH > 800
+xlogin*greetFont: -adobe-helvetica-bold-o-normal-*-18-*-*-*-*-*-iso8859-1
+xlogin*font: -adobe-helvetica-medium-o-normal-*-14-*-*-*-*-*-iso8859-1
+xlogin*promptFont: -adobe-helvetica-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
+xlogin*failFont: -adobe-helvetica-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
+xlogin*greetFace:	Serif-24:bold:italic
+xlogin*face: 		Helvetica-14
+xlogin*promptFace: 	Helvetica-14:bold
+xlogin*failFace: 	Helvetica-14:bold
+#else
+xlogin*greetFont: -adobe-helvetica-bold-o-normal--17-120-100-100-p-92-iso8859-1
+xlogin*font: -adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1
+xlogin*promptFont: -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-1
+xlogin*failFont: -adobe-helvetica-bold-o-normal--14-140-75-75-p-82-iso8859-1
+xlogin*greetFace:	Serif-18:bold:italic
+xlogin*face:		Helvetica-12
+xlogin*promptFace:	Helvetica-12:bold
+xlogin*failFace:	Helvetica-14:bold
+#endif
+
+#ifdef COLOR
+xlogin*borderWidth: 1
+xlogin*frameWidth: 5
+xlogin*innerFramesWidth: 2
+xlogin*shdColor: grey30
+xlogin*hiColor: grey90
+xlogin*background: grey
+!xlogin*foreground: darkgreen
+xlogin*greetColor: Blue3
+xlogin*failColor: red
+*Foreground: black
+*Background: #fffff0
+#else
+xlogin*borderWidth: 3
+xlogin*frameWidth: 0
+xlogin*innerFramesWidth: 1
+xlogin*shdColor: black
+xlogin*hiColor: black
+#endif
+
+#if PLANES >= 8
+#if 1
+! XDM has no support for images with alpha channel, so we precomputed a
+! NetBSD logo with fixed background and use it here. If you change this
+! file to use another background colour, you need to create a new logo
+! xpm file. This can be done with netpbm from pkgsrc:
+!
+!   pngtopnm -mix -background grey NetBSD-flag.png | pnmtoxpm > NetBSD-flag.xpm
+!
+! (all files in /usr/X11R7/include/X11/pixmaps)
+!
+xlogin*logoFileName: /usr/X11R7/include/X11/pixmaps/NetBSD-flag1.xpm
+xlogin*useShape: false
+#else
+!
+! This is the stock method, using a coloured xpm file and a b&w mask xpm.
+! Antialiased borders look ugly this way, but it works with arbitrary
+! background colours.
+!
+xlogin*logoFileName: /usr/X11R7/include/X11/pixmaps/NetBSD.xpm
+xlogin*useShape: true
+#endif
+#else
+xlogin*logoFileName: /usr/X11R7/include/X11/pixmaps/NetBSD-bw.xpm
+xlogin*useShape: true
+#endif
+xlogin*logoPadding: 10
+
+
+XConsole.text.geometry:	480x130
+XConsole.verbose:	true
+XConsole*iconic:	true
+XConsole*font:		fixed
+
+Chooser*geometry:		700x500+300+200
+Chooser*allowShellResize:	false
+Chooser*viewport.forceBars:	true
+Chooser*label.font:		*-new century schoolbook-bold-i-normal-*-240-*
+Chooser*label.label:		XDMCP Host Menu from CLIENTHOST
+Chooser*list.font:		-*-*-medium-r-normal-*-*-230-*-*-c-*-iso8859-1
+Chooser*Command.font:		*-new century schoolbook-bold-r-normal-*-180-*
+

@@ -1,0 +1,85 @@
+. type=dir uname=root gname=wheel mode=0755 optional
+./etc type=dir uname=root gname=wheel mode=0755 optional
+./etc/drirc type=file uname=root gname=wheel mode=0644 size=3739 sha256=632b69010b0de5a5edb91ca224abbfeda4622f8aca27d246a7714b1c34532721
+./etc/X11 type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/ctwm type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/ctwm/system.ctwmrc type=file uname=root gname=wheel mode=0644 size=4823 sha256=d0b131ec8c9d068958988f39af1d9f15fbc370514660efc5cd325780ae030327
+./etc/X11/fs type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/fs/config type=file uname=root gname=wheel mode=0644 size=273 sha256=77ba09cfcea907bf8767c125ae0bdb0298064368e77e411b7b66be09b5249034
+./etc/X11/proxymngr type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/proxymngr/pmconfig type=file uname=root gname=wheel mode=0644 size=263 sha256=ec94d5a3d3e5044135244c5e1d34b4c3f9859b5d53735c26ef1f3f5322324779
+./etc/X11/twm type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/twm/system.twmrc type=file uname=root gname=wheel mode=0644 size=2419 sha256=861237bbfeacad152338019dc0cc84ec5bc50f147ca8b094335aaf99b750031d
+./etc/X11/xdm type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/xdm/GiveConsole type=file uname=root gname=wheel mode=0755 size=325 sha256=992f7602ce94517e8519c9cf0f080eaeb6fc10e4fa74174fca496516cb6ea978
+./etc/X11/xdm/TakeConsole type=file uname=root gname=wheel mode=0755 size=184 sha256=e18099dd3b5503212dbdab383a014452365ef75afed2c87762ead13e962f8b5a
+./etc/X11/xdm/Xaccess type=file uname=root gname=wheel mode=0644 size=3401 sha256=72157c489fed07aad8545ec2a8eaf4846c137af8421e5a65cfefada8b2d9abea
+./etc/X11/xdm/Xreset type=file uname=root gname=wheel mode=0755 size=193 sha256=f1f26e6272971ff718828db6116146a6ab8a220c1cc497b31173792fec9c5cee
+./etc/X11/xdm/Xresources type=file uname=root gname=wheel mode=0644 size=3411 sha256=064ab5372929ace4cf12ca9cf0655d35e4c51d71a228025170d61f1b65ffa382
+./etc/X11/xdm/Xservers type=link uname=root gname=wheel mode=0755 link=Xservers.ws
+./etc/X11/xdm/Xservers.fs type=file uname=root gname=wheel mode=0644 size=317 sha256=760c2be33bac3e2b1698c669b8137268e67651d0147c6896b910ea6350968b96
+./etc/X11/xdm/Xservers.ws type=file uname=root gname=wheel mode=0644 size=447 sha256=b4c4da52b452828ce32ae52ddf1ed6a22bf36bbd8d760aae5055815eb7f2ff27
+./etc/X11/xdm/Xsession type=file uname=root gname=wheel mode=0755 size=882 sha256=e0d930000c8cc345cf69a717e5423d8a322c4944db1608d9b0cffed6ad8131d0
+./etc/X11/xdm/Xsetup_0 type=file uname=root gname=wheel mode=0755 size=88 sha256=e928997897a6a7778cd9a04f2602a28526a1e1bef569c92cd7b85cb5eeff34e4
+./etc/X11/xdm/Xstartup type=file uname=root gname=wheel mode=0755 size=192 sha256=b7bc1f5260534c20f1c6a9ea5a1fd0b2c92718b8b5fe7419df2c348949ce2575
+./etc/X11/xdm/Xwilling type=file uname=root gname=wheel mode=0755 size=291 sha256=272fa7257e89997d9896de608d12e8d825c3dcef5f3644090f6d237020777b1a
+./etc/X11/xdm/xdm-config type=file uname=root gname=wheel mode=0644 size=1236 sha256=e52dedc79a3776e9cf1b85b37637ec0df40f86826e00dab1a5d28c8415d35dcf
+./etc/X11/xinit type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/xinit/xinitrc type=file uname=root gname=wheel mode=0644 size=789 sha256=3b5e47a50383a9e00e3ffef10d03cd77ff06885eeb0f4d3e0b41bfe03c47e06e
+./etc/X11/xsm type=dir uname=root gname=wheel mode=0755 optional
+./etc/X11/xsm/system.xsm type=file uname=root gname=wheel mode=0644 size=77 sha256=44cae46ed3837ff57a3b1bb73b9d1340f66697443f1ccc57a1f7e268a7494b7e
+./etc/fonts type=dir uname=root gname=wheel mode=0755 optional
+./etc/fonts/fonts.conf type=file uname=root gname=wheel mode=0644 size=5603 sha256=fc414efadf953d0b5478a0468eb36428cb146d5d412b88dca5bf4199eb8eaf2f
+./etc/fonts/fonts.dtd type=file uname=root gname=wheel mode=0644 size=7250 sha256=26cac5f99498345c19e7d53aa3b9ab531a57bd0cef0b8e6b9dc0e4e2116ffb3b
+./etc/fonts/conf.avail type=dir uname=root gname=wheel mode=0755 optional
+./etc/fonts/conf.avail/10-autohint.conf type=file uname=root gname=wheel mode=0644 size=484 sha256=5f79232f982775c907effd74a6ba88e6d0b475d7250b09dbd6c79a1773e9f538
+./etc/fonts/conf.avail/10-no-sub-pixel.conf type=file uname=root gname=wheel mode=0644 size=491 sha256=fe272ccacb603dafc7ceb024c4b069dca46868f41f78cf55be04096823779fe1
+./etc/fonts/conf.avail/10-scale-bitmap-fonts.conf type=file uname=root gname=wheel mode=0644 size=1952 sha256=9e8e338453028b8b6ad97a9103e799a1e338b51e8231c73d28b82a4c530927a0
+./etc/fonts/conf.avail/10-sub-pixel-bgr.conf type=file uname=root gname=wheel mode=0644 size=489 sha256=574b79a82ac0158e0c5407b402ee7d60f7a36573fcb86e4329f49c0a2c1a4d08
+./etc/fonts/conf.avail/10-sub-pixel-rgb.conf type=file uname=root gname=wheel mode=0644 size=489 sha256=887b818221c78cd2dd33a74dbd66a58eb6d27f92856c1f4de9e5e022423049b1
+./etc/fonts/conf.avail/10-sub-pixel-vbgr.conf type=file uname=root gname=wheel mode=0644 size=490 sha256=b4276fe30bee98ea873a600976a18eca082a668c5328fbbeda411b297a146ed8
+./etc/fonts/conf.avail/10-sub-pixel-vrgb.conf type=file uname=root gname=wheel mode=0644 size=490 sha256=e3eeadca58a724ef4b6014b053ca095930034417fda0c00710205c1222ae6c46
+./etc/fonts/conf.avail/10-unhinted.conf type=file uname=root gname=wheel mode=0644 size=481 sha256=435cf7b099864fa44f26fac1c968faf13daf264c3535ef5ddd3b8c1d9adf400c
+./etc/fonts/conf.avail/11-lcdfilter-default.conf type=file uname=root gname=wheel mode=0644 size=526 sha256=527335fcf49b233c9eb0b5b5f646e9754c05bd652f8a7a8adbd75b6330a4b4da
+./etc/fonts/conf.avail/11-lcdfilter-legacy.conf type=file uname=root gname=wheel mode=0644 size=524 sha256=26c93e9eb9b34336bac5c4be4cb21ac0db4a700ca7c857e22de447fbc8c2a64f
+./etc/fonts/conf.avail/11-lcdfilter-light.conf type=file uname=root gname=wheel mode=0644 size=522 sha256=175c4081589bdd68130e6de07734c28353ff45610d38e462058926668aa51cf7
+./etc/fonts/conf.avail/20-unhint-small-vera.conf type=file uname=root gname=wheel mode=0644 size=1259 sha256=855e1f86a70170982cda0e796e407173c81e4033537ccb6fa899f638a324ef60
+./etc/fonts/conf.avail/25-unhint-nonlatin.conf type=file uname=root gname=wheel mode=0644 size=3256 sha256=d074be03d0613eb6aa4037c97fc48234e8340a36262f528e09583e65031cc1fc
+./etc/fonts/conf.avail/30-metric-aliases.conf type=file uname=root gname=wheel mode=0644 size=11479 sha256=a0fd5e8a9d96679b172cabd9eba774cb8b49caa28883d5c0f4e35747a87c173b
+./etc/fonts/conf.avail/30-urw-aliases.conf type=file uname=root gname=wheel mode=0644 size=701 sha256=7de3bc0dc38130b74005a125efa673cc096948620e92807724b718c78b2eb267
+./etc/fonts/conf.avail/40-nonlatin.conf type=file uname=root gname=wheel mode=0644 size=5182 sha256=96883a4ec25fe27cc7e608e34a2b0928c6572263c60fdd1a4d10c7cac4a04683
+./etc/fonts/conf.avail/45-latin.conf type=file uname=root gname=wheel mode=0644 size=4324 sha256=0f49c785c6e0473cb9ee9b9327db4e201b8de056e82122b0c11b0cf33d01b680
+./etc/fonts/conf.avail/49-sansserif.conf type=file uname=root gname=wheel mode=0644 size=545 sha256=ac32c6de350ff1c7945c31bf55eb89aa00c2198f65c92f89479f552dbce82090
+./etc/fonts/conf.avail/50-user.conf type=file uname=root gname=wheel mode=0644 size=673 sha256=572980e97c21390386bda4d49da677fd99afbede5b2f63e4ea50d47696a8f8b4
+./etc/fonts/conf.avail/51-local.conf type=file uname=root gname=wheel mode=0644 size=189 sha256=cff7fa2a5fec9dc6e4b96df901a5763b02f7da3bd1636f62b261f71ec06dcc71
+./etc/fonts/conf.avail/60-latin.conf type=file uname=root gname=wheel mode=0644 size=1701 sha256=cb242889a0453f2e1082222157653fe06b9609a00173b5439c6833468a7e48f2
+./etc/fonts/conf.avail/65-fonts-persian.conf type=file uname=root gname=wheel mode=0644 size=10118 sha256=e02d797787df6b54e81d77aa8e8a75bcd59b866802fb43b06105d66376efd30d
+./etc/fonts/conf.avail/65-khmer.conf type=file uname=root gname=wheel mode=0644 size=289 sha256=5ae948cfe76dd9c08002f86cbfabb6adcf9ceeeb0b2e0082857558614b77ec8b
+./etc/fonts/conf.avail/65-nonlatin.conf type=file uname=root gname=wheel mode=0644 size=7959 sha256=cfc9c510f9192c76532bf9016e105ede9dc183b9d88b1e8d78ca5842968cddb0
+./etc/fonts/conf.avail/69-unifont.conf type=file uname=root gname=wheel mode=0644 size=672 sha256=7d001e8289d1af7a0f095b3c5646347a68c6586b989312ffa3059f92213678e5
+./etc/fonts/conf.avail/70-no-bitmaps.conf type=file uname=root gname=wheel mode=0644 size=263 sha256=b1d755a293433dd7d15120eb8aa79ac89db3ee91c0aa674dff53768802a35aa8
+./etc/fonts/conf.avail/70-yes-bitmaps.conf type=file uname=root gname=wheel mode=0644 size=263 sha256=56735ceefd2ef4eb359ff0f21df9ae25fd1542b73ac51cd0dbedce694430732f
+./etc/fonts/conf.avail/80-delicious.conf type=file uname=root gname=wheel mode=0644 size=422 sha256=046da4371f65c236aafc73ed33a924c61e55ff49dad9d9a51e79f519882d7fbd
+./etc/fonts/conf.avail/90-synthetic.conf type=file uname=root gname=wheel mode=0644 size=1691 sha256=bbea65e32cef73fcb80efa1b32fc54e31c31477d808a8b206682f1ab06baa523
+./etc/fonts/conf.d type=dir uname=root gname=wheel mode=0755 optional
+./etc/fonts/conf.d/10-scale-bitmap-fonts.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/10-scale-bitmap-fonts.conf
+./etc/fonts/conf.d/20-unhint-small-vera.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/20-unhint-small-vera.conf
+./etc/fonts/conf.d/30-metric-aliases.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/30-metric-aliases.conf
+./etc/fonts/conf.d/30-urw-aliases.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/30-urw-aliases.conf
+./etc/fonts/conf.d/40-nonlatin.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/40-nonlatin.conf
+./etc/fonts/conf.d/45-latin.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/45-latin.conf
+./etc/fonts/conf.d/49-sansserif.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/49-sansserif.conf
+./etc/fonts/conf.d/50-user.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/50-user.conf
+./etc/fonts/conf.d/51-local.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/51-local.conf
+./etc/fonts/conf.d/60-latin.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/60-latin.conf
+./etc/fonts/conf.d/65-fonts-persian.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/65-fonts-persian.conf
+./etc/fonts/conf.d/65-nonlatin.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/65-nonlatin.conf
+./etc/fonts/conf.d/69-unifont.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/69-unifont.conf
+./etc/fonts/conf.d/80-delicious.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/80-delicious.conf
+./etc/fonts/conf.d/90-synthetic.conf type=link uname=root gname=wheel mode=0755 link=../conf.avail/90-synthetic.conf
+./etc/mtree type=dir uname=root gname=wheel mode=0755 optional
+./etc/mtree/set.xetc type=file uname=root gname=wheel mode=0444
+./var type=dir uname=root gname=wheel mode=0755 optional
+./var/db type=dir uname=root gname=wheel mode=0755 optional
+./var/db/obsolete type=dir uname=root gname=wheel mode=0755 optional
+./var/db/obsolete/xetc type=file uname=root gname=wheel mode=0644 size=174 sha256=bb00050492f6926f1af9589c3518e0b07318f5bcbdc8ab6c63c92c704ab13b54 tags=etc_pkg

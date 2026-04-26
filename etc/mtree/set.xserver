@@ -1,0 +1,203 @@
+. type=dir uname=root gname=wheel mode=0755 optional
+./etc type=dir uname=root gname=wheel mode=0755 optional
+./etc/mtree type=dir uname=root gname=wheel mode=0755 optional
+./etc/mtree/set.xserver type=file uname=root gname=wheel mode=0444
+./usr type=dir uname=root gname=wheel mode=0755 optional
+./usr/X11R7 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/bin type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/bin/X type=link uname=root gname=wheel mode=0755 link=/usr/X11R7/bin/Xorg
+./usr/X11R7/bin/Xnest type=file uname=root gname=wheel mode=0755 size=1678651 sha256=caac2f069c879ddb76ab1719a05b529c787f9aaa42e52b284566f2f10f3a685c
+./usr/X11R7/bin/Xorg type=file uname=root gname=wheel mode=04711 size=2488690 sha256=c749c70e394de26cc43c4a2d7cba455c6d79e85d4b79b3d2b1a95c87fa05dcce
+./usr/X11R7/bin/Xvfb type=file uname=root gname=wheel mode=0755 size=1858976 sha256=34f2799f85041ebb23c5c4493ea672d2da97626f404d383a61029eeaea6bad66
+./usr/X11R7/bin/cvt type=file uname=root gname=wheel mode=0755 size=225337 sha256=f9776f9d3f3ec3a7e3ca2a5129780c8ac43f085a4d65bf52cdada9fcf1ddbe2a
+./usr/X11R7/bin/gtf type=file uname=root gname=wheel mode=0755 size=224952 sha256=7e183d5ea87a30dd55933d22a5faa86bab3b879ba5ceabe563bd35e7a09ea95b
+./usr/X11R7/lib type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/X11 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/X11/doc type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/X11/doc/README.modes type=file uname=root gname=wheel mode=0644 size=16939 sha256=f2f79a14176912470eb48643b2375e476a44d29f68e99f8200797643cfde98b2
+./usr/X11R7/lib/modules type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/modules/libexa.so type=link uname=root gname=wheel mode=0755 link=libexa.so.0
+./usr/X11R7/lib/modules/libexa.so.0 type=file uname=root gname=wheel mode=0644 size=91395 sha256=720b87ceac1039a19a45eeb1d611ea088c7f24617598e91456ac5bf5130626e2
+./usr/X11R7/lib/modules/libfb.a type=file uname=root gname=wheel mode=0644 size=151250 sha256=aa88ae7823513b7bcdac2f38c08b8657b323071af4dbc1b49fd61d9a40c84dcc
+./usr/X11R7/lib/modules/libfb.so type=link uname=root gname=wheel mode=0755 link=libfb.so.0
+./usr/X11R7/lib/modules/libfb.so.0 type=file uname=root gname=wheel mode=0644 size=126759 sha256=ebaa2bd36cfa193c00c8aaa5a5294af92aec785cd05434c13f37dbec504d465d
+./usr/X11R7/lib/modules/libint10.so type=link uname=root gname=wheel mode=0755 link=libint10.so.0
+./usr/X11R7/lib/modules/libint10.so.0 type=file uname=root gname=wheel mode=0644 size=373387 sha256=2ed6b215ec55ad2303a8714b2331a2df0c19eeda4d89656044fefedce1d38df5
+./usr/X11R7/lib/modules/libshadowfb.so type=link uname=root gname=wheel mode=0755 link=libshadowfb.so.0
+./usr/X11R7/lib/modules/libshadowfb.so.0 type=file uname=root gname=wheel mode=0644 size=28569 sha256=8ad50c3c8c974c77dffd9d391d359c79b0539a04d0885e30a2b2624a41efd8c0
+./usr/X11R7/lib/modules/libvbe.so type=link uname=root gname=wheel mode=0755 link=libvbe.so.0
+./usr/X11R7/lib/modules/libvbe.so.0 type=file uname=root gname=wheel mode=0644 size=22644 sha256=69301944e399f0b98c8f61b837006d86b06687305e768ce5d5bd1a78c4d0d3a5
+./usr/X11R7/lib/modules/libvgahw.so type=link uname=root gname=wheel mode=0755 link=libvgahw.so.0
+./usr/X11R7/lib/modules/libvgahw.so.0 type=file uname=root gname=wheel mode=0644 size=29196 sha256=03b626f5ab953f7b31bf7243a1e07208f4c1850cf6bb804cf88c48717096aead
+./usr/X11R7/lib/modules/libxaa.so type=link uname=root gname=wheel mode=0755 link=libxaa.so.0
+./usr/X11R7/lib/modules/libxaa.so.0 type=file uname=root gname=wheel mode=0644 size=323381 sha256=a0ceb305d25c247c212ded8af054e1017e36799c484a69597a27e5c30af01de8
+./usr/X11R7/lib/modules/dri type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/modules/dri/i915_dri.so type=link uname=root gname=wheel mode=0755 link=i915_dri.so.0
+./usr/X11R7/lib/modules/dri/i915_dri.so.0 type=link uname=root gname=wheel mode=0755 link=mesa_dri_drivers.so.0
+./usr/X11R7/lib/modules/dri/i965_dri.so type=link uname=root gname=wheel mode=0755 link=i965_dri.so.0
+./usr/X11R7/lib/modules/dri/i965_dri.so.0 type=link uname=root gname=wheel mode=0755 link=mesa_dri_drivers.so.0
+./usr/X11R7/lib/modules/dri/libmesa_dri.so type=link uname=root gname=wheel mode=0755 link=libmesa_dri.so.0
+./usr/X11R7/lib/modules/dri/libmesa_dri.so.0 type=file uname=root gname=wheel mode=0644 size=3476205 sha256=11685d13408d852990cc44b3bc72876ed412522de97faf7507d08d53631f58d3
+./usr/X11R7/lib/modules/dri/mesa_dri_drivers.so type=link uname=root gname=wheel mode=0755 link=mesa_dri_drivers.so.0
+./usr/X11R7/lib/modules/dri/mesa_dri_drivers.so.0 type=file uname=root gname=wheel mode=0644 size=5925754 sha256=343dce412e745c1ca3dfa133b1f5ac1c5db103b6180240727f97322b07e4ecf5
+./usr/X11R7/lib/modules/dri/r200_dri.so type=link uname=root gname=wheel mode=0755 link=r200_dri.so.0
+./usr/X11R7/lib/modules/dri/r200_dri.so.0 type=link uname=root gname=wheel mode=0755 link=mesa_dri_drivers.so.0
+./usr/X11R7/lib/modules/dri/r300_dri.so type=link uname=root gname=wheel mode=0755 link=r300_dri.so.0
+./usr/X11R7/lib/modules/dri/r300_dri.so.0 type=file uname=root gname=wheel mode=0644 size=545273 sha256=12d846cf10540c593b19635262efa34dc193f73af60c98ed140733efc58950ef
+./usr/X11R7/lib/modules/dri/radeon_dri.so type=link uname=root gname=wheel mode=0755 link=radeon_dri.so.0
+./usr/X11R7/lib/modules/dri/radeon_dri.so.0 type=link uname=root gname=wheel mode=0755 link=mesa_dri_drivers.so.0
+./usr/X11R7/lib/modules/drivers type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/modules/drivers/apm_drv.so type=link uname=root gname=wheel mode=0755 link=apm_drv.so.1
+./usr/X11R7/lib/modules/drivers/apm_drv.so.1 type=file uname=root gname=wheel mode=0644 size=35953 sha256=12a380785da9c690beda5887896f8ed41453167df4e949bf1f689bcfb79982c1
+./usr/X11R7/lib/modules/drivers/ark_drv.so type=link uname=root gname=wheel mode=0755 link=ark_drv.so.0
+./usr/X11R7/lib/modules/drivers/ark_drv.so.0 type=file uname=root gname=wheel mode=0644 size=20123 sha256=16e66363c6786d5b8c5402b20d1bd0bb854e2c1bcdbb735ec499f3ed80c6974a
+./usr/X11R7/lib/modules/drivers/ast_drv.so type=link uname=root gname=wheel mode=0755 link=ast_drv.so.1
+./usr/X11R7/lib/modules/drivers/ast_drv.so.1 type=file uname=root gname=wheel mode=0644 size=133783 sha256=00672b4c05fd8c50b2532bdd04979fc29f37d67c58171fdd6b698df2ac14b6d9
+./usr/X11R7/lib/modules/drivers/ati_drv.so type=link uname=root gname=wheel mode=0755 link=ati_drv.so.6
+./usr/X11R7/lib/modules/drivers/ati_drv.so.6 type=file uname=root gname=wheel mode=0644 size=6445 sha256=45f87a6a663a18ed7d5a4380ced3513136edac881933d646cec831e2cb3cfd2c
+./usr/X11R7/lib/modules/drivers/ch7017_drv.so type=link uname=root gname=wheel mode=0755 link=ch7017_drv.so.2
+./usr/X11R7/lib/modules/drivers/ch7017_drv.so.2 type=file uname=root gname=wheel mode=0644 size=9736 sha256=4e4b57a715f6e68fef27bc060ee0708ca502ba7c856aba56d7302dda78feef82
+./usr/X11R7/lib/modules/drivers/ch7xxx_drv.so type=link uname=root gname=wheel mode=0755 link=ch7xxx_drv.so.2
+./usr/X11R7/lib/modules/drivers/ch7xxx_drv.so.2 type=file uname=root gname=wheel mode=0644 size=8837 sha256=47409ec45b667d282c09a465514bf8aff82dac20f065f697e5e35867a6f65e60
+./usr/X11R7/lib/modules/drivers/chips_drv.so type=link uname=root gname=wheel mode=0755 link=chips_drv.so.1
+./usr/X11R7/lib/modules/drivers/chips_drv.so.1 type=file uname=root gname=wheel mode=0644 size=114393 sha256=5d5a23e43fe76c1b3d7d6061c572ee26afbbb8f4d33707b7af9cdeaaae61b40a
+./usr/X11R7/lib/modules/drivers/cirrus_alpine.so type=link uname=root gname=wheel mode=0755 link=cirrus_alpine.so.1
+./usr/X11R7/lib/modules/drivers/cirrus_alpine.so.1 type=file uname=root gname=wheel mode=0644 size=31429 sha256=be9030bb275243166815b44fa2dc77cb5f8eed04d9f43aca6a2990665b9616e9
+./usr/X11R7/lib/modules/drivers/cirrus_drv.so type=link uname=root gname=wheel mode=0755 link=cirrus_drv.so.1
+./usr/X11R7/lib/modules/drivers/cirrus_drv.so.1 type=file uname=root gname=wheel mode=0644 size=14500 sha256=73af0c02915b35efb76061805578674961fcea699427e6691ace04adfa8dfad6
+./usr/X11R7/lib/modules/drivers/cirrus_laguna.so type=link uname=root gname=wheel mode=0755 link=cirrus_laguna.so.1
+./usr/X11R7/lib/modules/drivers/cirrus_laguna.so.1 type=file uname=root gname=wheel mode=0644 size=27897 sha256=6a4ebe0e0e6b32f63749df1d016dbb0f675b81b924da411678f054d29dd6e067
+./usr/X11R7/lib/modules/drivers/elographics_drv.so type=link uname=root gname=wheel mode=0755 link=elographics_drv.so.1
+./usr/X11R7/lib/modules/drivers/elographics_drv.so.1 type=file uname=root gname=wheel mode=0644 size=16594 sha256=3e7e663264a8bf22b4ff99f86b637389533a737c3ecfdaefc34c9dd02d5e8383
+./usr/X11R7/lib/modules/drivers/geode_drv.so type=link uname=root gname=wheel mode=0755 link=geode_drv.so.2
+./usr/X11R7/lib/modules/drivers/geode_drv.so.2 type=file uname=root gname=wheel mode=0644 size=329542 sha256=1d9f666358170f6951bc8caae038f546fed2161be99ea3977004629cfc393cba
+./usr/X11R7/lib/modules/drivers/glint_drv.so type=link uname=root gname=wheel mode=0755 link=glint_drv.so.1
+./usr/X11R7/lib/modules/drivers/glint_drv.so.1 type=file uname=root gname=wheel mode=0644 size=145667 sha256=4196e10218cc44d2d4b4937b070de1e980899de06cada1fdc4eb954809f1b925
+./usr/X11R7/lib/modules/drivers/i128_drv.so type=link uname=root gname=wheel mode=0755 link=i128_drv.so.1
+./usr/X11R7/lib/modules/drivers/i128_drv.so.1 type=file uname=root gname=wheel mode=0644 size=58263 sha256=a830850c8ad9f58cbf11a37aa503f43873b679a93c17534eea64bd2a278de1e5
+./usr/X11R7/lib/modules/drivers/i740_drv.so type=link uname=root gname=wheel mode=0755 link=i740_drv.so.1
+./usr/X11R7/lib/modules/drivers/i740_drv.so.1 type=file uname=root gname=wheel mode=0644 size=49328 sha256=74e72fcefe6b5ce7ec4347bea0054b516f65248273f582938f45155a4a273a66
+./usr/X11R7/lib/modules/drivers/intel_drv.so type=link uname=root gname=wheel mode=0755 link=intel_drv.so.2
+./usr/X11R7/lib/modules/drivers/intel_drv.so.2 type=file uname=root gname=wheel mode=0644 size=560046 sha256=a823252c044a0706a7900dedb3a653fda0e10dd34b83890c493ec48aaddbd1c2
+./usr/X11R7/lib/modules/drivers/intel_drv_old.so type=link uname=root gname=wheel mode=0755 link=intel_drv_old.so.2
+./usr/X11R7/lib/modules/drivers/intel_drv_old.so.2 type=file uname=root gname=wheel mode=0644 size=601668 sha256=498b59797b05d7717f21a4660ef7af0f9427b9df9a92064b66be3cfb0567f696
+./usr/X11R7/lib/modules/drivers/ivch_drv.so type=link uname=root gname=wheel mode=0755 link=ivch_drv.so.2
+./usr/X11R7/lib/modules/drivers/ivch_drv.so.2 type=file uname=root gname=wheel mode=0644 size=7699 sha256=ed698a86c6c2b6c7312db9b4b1689e0076c517c5cc22f58e0abbd6263b058af4
+./usr/X11R7/lib/modules/drivers/kbd_drv.so type=link uname=root gname=wheel mode=0755 link=kbd_drv.so.1
+./usr/X11R7/lib/modules/drivers/kbd_drv.so.1 type=file uname=root gname=wheel mode=0644 size=17372 sha256=9170ab892569ea796298ed68e15944f9c15321c0c860bca9a824dc75279360ac
+./usr/X11R7/lib/modules/drivers/mach64_drv.so type=link uname=root gname=wheel mode=0755 link=mach64_drv.so.6
+./usr/X11R7/lib/modules/drivers/mach64_drv.so.6 type=file uname=root gname=wheel mode=0644 size=159566 sha256=183548b6dba9f1349bc017320f9c5ae1d9357b41380b2b60f1dd037a14405c2e
+./usr/X11R7/lib/modules/drivers/mga_drv.so type=link uname=root gname=wheel mode=0755 link=mga_drv.so.1
+./usr/X11R7/lib/modules/drivers/mga_drv.so.1 type=file uname=root gname=wheel mode=0644 size=161318 sha256=292e7afec5cf3a7bcb16072d0122948434125d5583ea1d1eaf6acb07852a6f14
+./usr/X11R7/lib/modules/drivers/mouse_drv.so type=link uname=root gname=wheel mode=0755 link=mouse_drv.so.1
+./usr/X11R7/lib/modules/drivers/mouse_drv.so.1 type=file uname=root gname=wheel mode=0644 size=47925 sha256=f73571d1883d040acd4f2ad170c32e8b81482b5425ab31559454e7075105a7d5
+./usr/X11R7/lib/modules/drivers/neomagic_drv.so type=link uname=root gname=wheel mode=0755 link=neomagic_drv.so.1
+./usr/X11R7/lib/modules/drivers/neomagic_drv.so.1 type=file uname=root gname=wheel mode=0644 size=75761 sha256=68e3faae566324855ba9d6275f69646c7cae2decdf33d12a63823b0e70bd53f4
+./usr/X11R7/lib/modules/drivers/nv_drv.so type=link uname=root gname=wheel mode=0755 link=nv_drv.so.2
+./usr/X11R7/lib/modules/drivers/nv_drv.so.2 type=file uname=root gname=wheel mode=0644 size=198940 sha256=16a38cfc7c3bc01a54712123c93dbf7342b59e03f970c0775303f2941b98b13c
+./usr/X11R7/lib/modules/drivers/openchrome_drv.so type=link uname=root gname=wheel mode=0755 link=openchrome_drv.so.0
+./usr/X11R7/lib/modules/drivers/openchrome_drv.so.0 type=file uname=root gname=wheel mode=0644 size=391666 sha256=94a089a6c48483d2b40ce87bfacc17ab4abbb280e94f3863c448fd2f4f23add7
+./usr/X11R7/lib/modules/drivers/r128_drv.so type=link uname=root gname=wheel mode=0755 link=r128_drv.so.6
+./usr/X11R7/lib/modules/drivers/r128_drv.so.6 type=file uname=root gname=wheel mode=0644 size=136174 sha256=bce51a9547dcfd0cfeec06bcb70ae63313af5e7bcab8d3de30559632968dccc9
+./usr/X11R7/lib/modules/drivers/radeon_drv.so type=link uname=root gname=wheel mode=0755 link=radeon_drv.so.7
+./usr/X11R7/lib/modules/drivers/radeon_drv.so.7 type=file uname=root gname=wheel mode=0644 size=427495 sha256=f2dbe632cbafda35e3f31d621bebd594bfe4dd5e0e1c03459adfb5931ad5d1bc
+./usr/X11R7/lib/modules/drivers/radeon_drv_old.so type=link uname=root gname=wheel mode=0755 link=radeon_drv_old.so.6
+./usr/X11R7/lib/modules/drivers/radeon_drv_old.so.6 type=file uname=root gname=wheel mode=0644 size=1203285 sha256=a1088a96b9f4c1e909f76faf97b9a7adb21339460826561245d90e591be7d613
+./usr/X11R7/lib/modules/drivers/s3_drv.so type=link uname=root gname=wheel mode=0755 link=s3_drv.so.0
+./usr/X11R7/lib/modules/drivers/s3_drv.so.0 type=file uname=root gname=wheel mode=0644 size=74732 sha256=ca68ccf4d0d9a41f7e9fbf6889462d86ecb8973d6c98762e62533c557b54e772
+./usr/X11R7/lib/modules/drivers/s3virge_drv.so type=link uname=root gname=wheel mode=0755 link=s3virge_drv.so.1
+./usr/X11R7/lib/modules/drivers/s3virge_drv.so.1 type=file uname=root gname=wheel mode=0644 size=70724 sha256=1da486359d23e0253c3f1c210ef21ba84ada757a1c32f2c127b43ec9d1f92265
+./usr/X11R7/lib/modules/drivers/savage_drv.so type=link uname=root gname=wheel mode=0755 link=savage_drv.so.2
+./usr/X11R7/lib/modules/drivers/savage_drv.so.2 type=file uname=root gname=wheel mode=0644 size=153968 sha256=cd494686836616a0f2d00a7794d0f0606c4b866c463b5b17d0a89cbeb0c34668
+./usr/X11R7/lib/modules/drivers/sil164_drv.so type=link uname=root gname=wheel mode=0755 link=sil164_drv.so.2
+./usr/X11R7/lib/modules/drivers/sil164_drv.so.2 type=file uname=root gname=wheel mode=0644 size=7262 sha256=081d673260f247a1d9fe968acc8a5d7f03df1983c2a22c1fca44175f844c65a9
+./usr/X11R7/lib/modules/drivers/siliconmotion_drv.so type=link uname=root gname=wheel mode=0755 link=siliconmotion_drv.so.1
+./usr/X11R7/lib/modules/drivers/siliconmotion_drv.so.1 type=file uname=root gname=wheel mode=0644 size=119513 sha256=61be011d52e4063096f6894c3ded2ed874fe3e67f4433a89d612136db10d3f51
+./usr/X11R7/lib/modules/drivers/sis_drv.so type=link uname=root gname=wheel mode=0755 link=sis_drv.so.0
+./usr/X11R7/lib/modules/drivers/sis_drv.so.0 type=file uname=root gname=wheel mode=0644 size=606680 sha256=ebbcd7e6b1c266c67352f47d2b9e453eb8812d603621ff7d3b6c19192829f26f
+./usr/X11R7/lib/modules/drivers/tdfx_drv.so type=link uname=root gname=wheel mode=0755 link=tdfx_drv.so.1
+./usr/X11R7/lib/modules/drivers/tdfx_drv.so.1 type=file uname=root gname=wheel mode=0644 size=76556 sha256=56fdf930aa3f2eb836042be5d43b6f4b8b4fac219f88d46fea549493a47916e4
+./usr/X11R7/lib/modules/drivers/tfp410_drv.so type=link uname=root gname=wheel mode=0755 link=tfp410_drv.so.2
+./usr/X11R7/lib/modules/drivers/tfp410_drv.so.2 type=file uname=root gname=wheel mode=0644 size=8782 sha256=6dc8a875996186f30c9a370eda68fede756104f02a10357bd2762b059ed0add6
+./usr/X11R7/lib/modules/drivers/tga_drv.so type=link uname=root gname=wheel mode=0755 link=tga_drv.so.1
+./usr/X11R7/lib/modules/drivers/tga_drv.so.1 type=file uname=root gname=wheel mode=0644 size=61260 sha256=596be7d2fcfaffd6c2e2edec42df79c33ffa1ccf7dcf2f1dd99274c5f536a80c
+./usr/X11R7/lib/modules/drivers/trident_drv.so type=link uname=root gname=wheel mode=0755 link=trident_drv.so.1
+./usr/X11R7/lib/modules/drivers/trident_drv.so.1 type=file uname=root gname=wheel mode=0644 size=144961 sha256=ecbce3b817d8b6eadc43b23bf4835b250f69824079d3ad448e81e4a53fd033c0
+./usr/X11R7/lib/modules/drivers/tseng_drv.so type=link uname=root gname=wheel mode=0755 link=tseng_drv.so.1
+./usr/X11R7/lib/modules/drivers/tseng_drv.so.1 type=file uname=root gname=wheel mode=0644 size=42180 sha256=4bf7205ed92295dec3f260a63ce9828a1111daa7c35a476345fee89f34d9aa54
+./usr/X11R7/lib/modules/drivers/vesa_drv.so type=link uname=root gname=wheel mode=0755 link=vesa_drv.so.2
+./usr/X11R7/lib/modules/drivers/vesa_drv.so.2 type=file uname=root gname=wheel mode=0644 size=27709 sha256=426b8a3ed12034730c0cfadce745b91551d3de1130860c6b958b67e20330d162
+./usr/X11R7/lib/modules/drivers/vmmouse_drv.so type=link uname=root gname=wheel mode=0755 link=vmmouse_drv.so.13
+./usr/X11R7/lib/modules/drivers/vmmouse_drv.so.13 type=file uname=root gname=wheel mode=0644 size=15077 sha256=493b526d16c4b68eaee9fba6d35ff8776e1dcc60aeb915c36fbe28ba81afd054
+./usr/X11R7/lib/modules/drivers/vmware_drv.so type=link uname=root gname=wheel mode=0755 link=vmware_drv.so.13
+./usr/X11R7/lib/modules/drivers/vmware_drv.so.13 type=file uname=root gname=wheel mode=0644 size=59598 sha256=336550c072d7fba21a14acf282a05a8157652c840cc5bc81a9b40b44c99329af
+./usr/X11R7/lib/modules/drivers/xgi_drv.so type=link uname=root gname=wheel mode=0755 link=xgi_drv.so.1
+./usr/X11R7/lib/modules/drivers/xgi_drv.so.1 type=file uname=root gname=wheel mode=0644 size=260557 sha256=0facb86f081d25a1dcccfc7fd29298f4257b747f6073f11023460c78accf5801
+./usr/X11R7/lib/modules/extensions type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/lib/modules/extensions/libdbe.so type=link uname=root gname=wheel mode=0755 link=libdbe.so.0
+./usr/X11R7/lib/modules/extensions/libdbe.so.0 type=file uname=root gname=wheel mode=0644 size=17980 sha256=94ef26ea33972c07e7dbb48be1c0b1f6deded861ea6275704fffa82f17cee774
+./usr/X11R7/lib/modules/extensions/libdri.a type=file uname=root gname=wheel mode=0644 size=38972 sha256=de5c02f2e71890548ff3d6651032ca53280701759cea9e8e4c8c159a8ba5d526
+./usr/X11R7/lib/modules/extensions/libdri.so type=link uname=root gname=wheel mode=0755 link=libdri.so.0
+./usr/X11R7/lib/modules/extensions/libdri.so.0 type=file uname=root gname=wheel mode=0644 size=42067 sha256=5184adeebba42490f56ad78f4297ac5caaebd43bfb8a3235f49f55cc73fa63ea
+./usr/X11R7/lib/modules/extensions/libdri2.a type=file uname=root gname=wheel mode=0644 size=20862 sha256=de1ee800d78d31d35e5e1a7c19d315e571a4be13a10816be97dc7be617c206ab
+./usr/X11R7/lib/modules/extensions/libdri2.so type=link uname=root gname=wheel mode=0755 link=libdri2.so.0
+./usr/X11R7/lib/modules/extensions/libdri2.so.0 type=file uname=root gname=wheel mode=0644 size=22837 sha256=a76d3ebc14e3d9592ce48557af530e5f4007cc9a98c7bcdc8b6b9fd98d276b23
+./usr/X11R7/lib/modules/extensions/libextmod.so type=link uname=root gname=wheel mode=0755 link=libextmod.so.0
+./usr/X11R7/lib/modules/extensions/libextmod.so.0 type=file uname=root gname=wheel mode=0644 size=105181 sha256=36aef2d4ecb3fafb0251503e799b11b23677c13b8a73d856a82f6b9242d58c40
+./usr/X11R7/lib/modules/extensions/libglx.so type=link uname=root gname=wheel mode=0755 link=libglx.so.0
+./usr/X11R7/lib/modules/extensions/libglx.so.0 type=file uname=root gname=wheel mode=0644 size=462522 sha256=2495751bbac44e08171831979906007f6aa87c20fa24cb134b10da318d11367b
+./usr/X11R7/lib/modules/extensions/librecord.so type=link uname=root gname=wheel mode=0755 link=librecord.so.0
+./usr/X11R7/lib/modules/extensions/librecord.so.0 type=file uname=root gname=wheel mode=0644 size=29079 sha256=67db79c24230a83a4529cc8fb82dd6b7095bd965eb69d1cecca91d50b2514296
+./usr/X11R7/lib/modules/extensions/libshadow.so type=link uname=root gname=wheel mode=0755 link=libshadow.so.0
+./usr/X11R7/lib/modules/extensions/libshadow.so.0 type=file uname=root gname=wheel mode=0644 size=23331 sha256=13e5b0d02574bbaf0c56585d69b833428414a94b91a50e814d1a3ba905c2d686
+./usr/X11R7/man type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/man/man1 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/man/man1/Xmark.1 type=file uname=root gname=wheel mode=0644 size=2020 sha256=c39d23a016c4da5e29c41163a159a67f034d02a7528e34f9c7b0655410001ece
+./usr/X11R7/man/man1/Xnest.1 type=file uname=root gname=wheel mode=0644 size=14279 sha256=6c1bcbd8f1115c637d667923d094212c6773392def03c0a20c5af3512d1fb0d2
+./usr/X11R7/man/man1/Xorg.1 type=file uname=root gname=wheel mode=0644 size=20334 sha256=246560dd6e14810451fe9b05561469fa709ec5261eef6cc8978b19c504b1e56c
+./usr/X11R7/man/man1/Xserver.1 type=file uname=root gname=wheel mode=0644 size=23236 sha256=a2eee652de1688e85d14012866297419936cae72def4a1b0bcd10ca9f4da1536
+./usr/X11R7/man/man1/Xvfb.1 type=file uname=root gname=wheel mode=0644 size=5485 sha256=196e05a3cae6dbdf108e8be7bc9d63c0e95975423022a9650b6b0adb88ecc001
+./usr/X11R7/man/man1/cvt.1 type=file uname=root gname=wheel mode=0644 size=1185 sha256=cb3f9f62680fb5ac2873660c9298c82669db324fcfb901ad46ad4da2f40cdd43
+./usr/X11R7/man/man1/gtf.1 type=file uname=root gname=wheel mode=0644 size=1234 sha256=51a4e63e9c85e925dace4aaef43976aa6445181cf82e2679fb11e1838501d6c0
+./usr/X11R7/man/man4 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/man/man4/apm.4 type=file uname=root gname=wheel mode=0644 size=2767 sha256=2e81f6f9d96587cb15203919c34fc2454dfbc12689a65011bf1622729ddb3d32
+./usr/X11R7/man/man4/ati.4 type=file uname=root gname=wheel mode=0644 size=954 sha256=4b24067ae2e0e6755e0d61ae2cbb5faa98dc4486f7bb0e3821461aca20b0f5d5
+./usr/X11R7/man/man4/chips.4 type=file uname=root gname=wheel mode=0644 size=7645 sha256=907e6bc2b58ca6caa1c762c2aa36a25e57e1a4f3aa8e39e0da5f25a1fc468103
+./usr/X11R7/man/man4/cirrus.4 type=file uname=root gname=wheel mode=0644 size=791 sha256=c04602ea7234a05e1f835f31bf5a71d16b55560c2af17f309f9a5b9f51892455
+./usr/X11R7/man/man4/elographics.4 type=file uname=root gname=wheel mode=0644 size=2527 sha256=f2d51af8662403b35091885932e4e00d8615b36348449760531e8a88e310eec9
+./usr/X11R7/man/man4/exa.4 type=file uname=root gname=wheel mode=0644 size=1743 sha256=4132d4b3592f3006598f01b7545f73bddfa8a8ae3e1524dbd05d87aa903cf4ca
+./usr/X11R7/man/man4/glint.4 type=file uname=root gname=wheel mode=0644 size=4372 sha256=a7bc52fcfd6f8f5cb09de0e66361a74e83f305e3403129658aaf9ff6bbccafc1
+./usr/X11R7/man/man4/i128.4 type=file uname=root gname=wheel mode=0644 size=1838 sha256=b0cc470eb19ca671468ef06924d3cce2ec6db399e790fbeaa845f0b6d6f79f79
+./usr/X11R7/man/man4/i740.4 type=file uname=root gname=wheel mode=0644 size=2441 sha256=7338024ad5b94edadc3c974c944d762fb5612b85f796d151e1e1b655c724f82a
+./usr/X11R7/man/man4/intel.4 type=file uname=root gname=wheel mode=0644 size=21053 sha256=027588e44cef273131d9d6b71ab9df3602da78b8ef43d91295c39fdb0c91f8d1
+./usr/X11R7/man/man4/kbd.4 type=file uname=root gname=wheel mode=0644 size=3789 sha256=59b29191be1f25a4437486a6a8c119f139971f52300e2d12557faeb3c15aed0b
+./usr/X11R7/man/man4/mga.4 type=file uname=root gname=wheel mode=0644 size=5796 sha256=b934df07dc4f0133582b9e4daf5f30ae5d8efbf8c407431ad2ab954a9b7e173e
+./usr/X11R7/man/man4/mousedrv.4 type=file uname=root gname=wheel mode=0644 size=11914 sha256=0611124a59116f32f05ea184ce429e5473d056db0f1eab58a633ad88606ef966
+./usr/X11R7/man/man4/neomagic.4 type=file uname=root gname=wheel mode=0644 size=2785 sha256=6c6fbe02bb426b90825fc1c228c9e63d838e0d037323e4f37d3404a045e92679
+./usr/X11R7/man/man4/nv.4 type=file uname=root gname=wheel mode=0644 size=7312 sha256=288340a7a8eec66d1e77c072345512ad26020eac19600f715998ba2ed717fb66
+./usr/X11R7/man/man4/openchrome.4 type=file uname=root gname=wheel mode=0644 size=11563 sha256=d4a3884db806a953c5c19f85bfc0a8d32ee3af117791de9e7b637367e0531521
+./usr/X11R7/man/man4/r128.4 type=file uname=root gname=wheel mode=0644 size=5064 sha256=9dd037ef33710d1601e6b5eb6bb7e354706245fd779de649f76d231fbf4e9b91
+./usr/X11R7/man/man4/radeon.4 type=file uname=root gname=wheel mode=0644 size=23945 sha256=c623f40e62c1ee3ff54799c0216ebcbce251a870f0cfb0d38ae545b58b2c12e7
+./usr/X11R7/man/man4/s3.4 type=file uname=root gname=wheel mode=0644 size=7299 sha256=5835af54cb0ab56a1c85cecf4e6db4d528bfd340212807e8bd21fe1e340ffccc
+./usr/X11R7/man/man4/s3virge.4 type=file uname=root gname=wheel mode=0644 size=7538 sha256=e084bc207e03a4e55019eb2ecdd07501f8b36610d0aead9c2dc014e696c11c7b
+./usr/X11R7/man/man4/savage.4 type=file uname=root gname=wheel mode=0644 size=9814 sha256=6937f22868a22ce9f34169ce02f6c2788e0ae17d57576c311ddcff859fe82563
+./usr/X11R7/man/man4/siliconmotion.4 type=file uname=root gname=wheel mode=0644 size=6579 sha256=dd6ba3a75158a862b68004cd74b793f945549523fcf48ad272b8c4610063becf
+./usr/X11R7/man/man4/sis.4 type=file uname=root gname=wheel mode=0644 size=15046 sha256=b873d4cf473d0af2329acbcdb9306bcbce335b5bfc3957b7ee66ad162ec91276
+./usr/X11R7/man/man4/tdfx.4 type=file uname=root gname=wheel mode=0644 size=1752 sha256=ace80906a8681cbb801c58f4f8fabad76fb90cf561e1aa047ee6fa4c8746adbe
+./usr/X11R7/man/man4/trident.4 type=file uname=root gname=wheel mode=0644 size=4872 sha256=3536e19b090dd1f5c946b7805fd3b9beabe277293aded3cff237d5f11c974263
+./usr/X11R7/man/man4/tseng.4 type=file uname=root gname=wheel mode=0644 size=683 sha256=dd18f7db0a767028f9fd9bd37eb40859e251c8cdef34788a580011b80b698004
+./usr/X11R7/man/man4/vesa.4 type=file uname=root gname=wheel mode=0644 size=1690 sha256=4a19634163995945d67fb4394f2cd9a1e3028aca1cefc55275fc7b2ddcc9fb7a
+./usr/X11R7/man/man4/vmmouse.4 type=file uname=root gname=wheel mode=0644 size=1457 sha256=a48ed665e0ff538629c7c8c843d943f9d034d1b2e5c0c709fc2da85c4236be71
+./usr/X11R7/man/man4/vmware.4 type=file uname=root gname=wheel mode=0644 size=4404 sha256=bfca9a988d0cbd2c1e31ee18961452ab2f7794d854ff15d595aa4ad9166c9e3e
+./usr/X11R7/man/man4/xgi.4 type=file uname=root gname=wheel mode=0644 size=14203 sha256=2146433ea2da8651748ef11aea7b128c4b2e5fd2f390b659a7b7becb79dc96ba
+./usr/X11R7/man/man4/x86 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/man/man4/x86/radeon.4 type=file uname=root gname=wheel mode=0644 size=9842 sha256=17fe983736a277dc1763a06a56ee250a150d70631ba99efd5374266e87ef8400
+./usr/X11R7/man/man5 type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/man/man5/xorg.conf.5 type=file uname=root gname=wheel mode=0644 size=73309 sha256=9aea2a56803ee19b2c56dca756b1f678ba06e493272a1ac402c41acfb6176556
+./usr/X11R7/share type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/share/aclocal type=dir uname=root gid=5 mode=0775 optional
+./usr/X11R7/share/aclocal/xorg-server.m4 type=file uname=root gname=wheel mode=0644 size=1896 sha256=ed1064c2737e09ee7c7e34869f0ee8f1aa46b66271db5cd37847c6327bc93634
+./var type=dir uname=root gname=wheel mode=0755 optional
+./var/db type=dir uname=root gname=wheel mode=0755 optional
+./var/db/obsolete type=dir uname=root gname=wheel mode=0755 optional
+./var/db/obsolete/xserver type=file uname=root gname=wheel mode=0644 size=8142 sha256=b328c95bf4219f95cf2bf99c0d52e51d8cc8562e81c376a0efa9ab10e3146a46 tags=etc_pkg

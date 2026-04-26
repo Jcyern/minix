@@ -1,0 +1,204 @@
+. type=dir uname=root gname=wheel mode=0755
+./etc type=dir uname=root gname=wheel mode=0755
+./etc/atf type=dir uname=root gname=wheel mode=0755
+./etc/mtree type=dir uname=root gname=wheel mode=0755
+./etc/mtree/set.minix-tests type=file uname=root gname=wheel mode=0444
+./usr type=dir uname=root gname=wheel mode=0755
+./usr/lib type=dir uname=root gname=wheel mode=0755
+./usr/share type=dir uname=root gname=wheel mode=0755 optional
+./usr/share/atf type=dir uname=root gname=wheel mode=0755
+./usr/share/atf/libatf-sh.subr type=file uname=root gname=wheel mode=0444 size=18466 sha256=1933913f649cf396057c11b40026c1f6b622bfa24f89e828fe6448bb86509da1
+./usr/share/doc type=dir uname=root gname=wheel mode=0755 optional
+./usr/share/doc/reference type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1 type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/atf type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/atf/AUTHORS type=file uname=root gname=wheel mode=0644 size=1154 sha256=ac2e81168f23475c1857b321c0e63dd1420a2bb811a6c0dc0a67c146cb2228c6
+./usr/share/doc/reference/ref1/atf/COPYING type=file uname=root gname=wheel mode=0644 size=4493 sha256=2a15172ddf6386297734c9800c899e6e8dc16c5a03931dcf95a9ab321a24cfe4
+./usr/share/doc/reference/ref1/atf/NEWS type=file uname=root gname=wheel mode=0644 size=27231 sha256=ffab2093bb82bfbda64f59716518a916636575d643ec523afcb604d7c0264f68
+./usr/share/doc/reference/ref1/atf/README type=file uname=root gname=wheel mode=0644 size=1461 sha256=bddda479d760976dfb1032590e306abc788bd754e1e11e9a6407888d01dc7a2f
+./usr/share/doc/reference/ref1/kyua type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/kyua/kyua-atf-compat type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/kyua/kyua-atf-compat/AUTHORS type=file uname=root gname=wheel mode=0444 size=33 sha256=62da7fa1a973065faa3d1e87bee15c2918c1541054f562d95d3829dc2757914e
+./usr/share/doc/reference/ref1/kyua/kyua-atf-compat/COPYING type=file uname=root gname=wheel mode=0444 size=1478 sha256=9343913f8ef8a91ceaf148fdcdb70bb8a45b9df9dac2ef71308053dcb312ade9
+./usr/share/doc/reference/ref1/kyua/kyua-atf-compat/NEWS type=file uname=root gname=wheel mode=0444 size=444 sha256=e6f5aaac5bc78f4015c04067c83db3bb3d2d14a20df5619adbec7b8a2ac78be0
+./usr/share/doc/reference/ref1/kyua/kyua-atf-compat/README type=file uname=root gname=wheel mode=0444 size=984 sha256=ba4758adad8f385385d97fdf93f578f8b5fb93f778d00a7a4ede38c9774e682e
+./usr/share/doc/reference/ref1/kyua/kyua-cli type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/kyua/kyua-cli/AUTHORS type=file uname=root gname=wheel mode=0444 size=33 sha256=62da7fa1a973065faa3d1e87bee15c2918c1541054f562d95d3829dc2757914e
+./usr/share/doc/reference/ref1/kyua/kyua-cli/COPYING type=file uname=root gname=wheel mode=0444 size=1490 sha256=c0306f1e1d583eef0cee97f052c7d2a5de919e0948a58323c7a0541ed18b5461
+./usr/share/doc/reference/ref1/kyua/kyua-cli/NEWS type=file uname=root gname=wheel mode=0444 size=11487 sha256=c24112f66f08a008ab5bcb9b2aa04f4d2f61d38d888f37bd89acecd87ff72875
+./usr/share/doc/reference/ref1/kyua/kyua-cli/README type=file uname=root gname=wheel mode=0444 size=916 sha256=b1097df1a29d4f409c697c3a6541de1e3460e11efba7891d88cec81c2f770890
+./usr/share/doc/reference/ref1/kyua/kyua-testers type=dir uname=root gname=wheel mode=0755
+./usr/share/doc/reference/ref1/kyua/kyua-testers/AUTHORS type=file uname=root gname=wheel mode=0444 size=33 sha256=62da7fa1a973065faa3d1e87bee15c2918c1541054f562d95d3829dc2757914e
+./usr/share/doc/reference/ref1/kyua/kyua-testers/COPYING type=file uname=root gname=wheel mode=0444 size=1472 sha256=3c382b1569a292dabd9e5a4c21d68f42e03f06d83032cf3f10b73e831af7f536
+./usr/share/doc/reference/ref1/kyua/kyua-testers/NEWS type=file uname=root gname=wheel mode=0444 size=615 sha256=2ef3ccdd36111f61c206179f7b6b94bc7cbfcf0092e8edb2bc094030606825f9
+./usr/share/doc/reference/ref1/kyua/kyua-testers/README type=file uname=root gname=wheel mode=0444 size=979 sha256=faff51fb73a55ebc8e16b664b4664a3cc2319e862af018ec7b999c87bb43d2fc
+./usr/share/examples type=dir uname=root gname=wheel mode=0755 optional
+./usr/share/examples/atf type=dir uname=root gname=wheel mode=0755
+./usr/share/examples/kyua-cli type=dir uname=root gname=wheel mode=0755
+./usr/share/examples/kyua-cli/Kyuafile.top type=file uname=root gname=wheel mode=0444 size=2587 sha256=dba3b76a138428739f6cca2817d1711be4f51aac666b91f51108bb94c4a15b88
+./usr/share/examples/kyua-cli/kyua.conf type=file uname=root gname=wheel mode=0444 size=2918 sha256=cb4030b31351d0a45d1370f3f7bd5f3692146c97bf80e95b68b48bd8b0b3bfe1
+./usr/share/examples/lutok type=dir uname=root gname=wheel mode=0755 optional
+./usr/share/examples/lutok/bindings.cpp type=file uname=root gname=wheel mode=0444 size=4914 sha256=722c683bde11b0435639e9cf5059ec354bdb2faa46742da1b72c3c9bcbad6d29
+./usr/share/examples/lutok/hello.cpp type=file uname=root gname=wheel mode=0444 size=2339 sha256=43712b07941ac205567bd1c5bebbecf308169f7e1e3398d2e3f31ee3be90458f
+./usr/share/examples/lutok/interpreter.cpp type=file uname=root gname=wheel mode=0444 size=2955 sha256=f3d7cfe56c17c25f1b2e312468f265cacf88d3e7d62df8e80d85b21d0a56bf52
+./usr/share/examples/lutok/raii.cpp type=file uname=root gname=wheel mode=0444 size=5023 sha256=fa194adbac48a2d9d26310788af081096291fa8338ccca018b622f8c95fc928d
+./usr/share/kyua-atf-compat type=dir uname=root gname=wheel mode=0755
+./usr/share/kyua-atf-compat/lib.subr type=file uname=root gname=wheel mode=0444 size=4066 sha256=db62a5adee18a54dc6ae59f3ab63384d0c6610f6610665c819b9bbea6046157c
+./usr/share/kyua-atf-compat/tests_lib.subr type=file uname=root gname=wheel mode=0444 size=3382 sha256=041d589c27588b8becfba91eeb3572dcea1ff88d4cac3e25167971e59ad922c2
+./usr/share/kyua-cli type=dir uname=root gname=wheel mode=0755
+./usr/share/kyua-cli/misc type=dir uname=root gname=wheel mode=0755
+./usr/share/kyua-cli/misc/context.html type=file uname=root gname=wheel mode=0444 size=2041 sha256=96260790613b63b626b606352d784fdd750b1b3143d751f0fd9f45367eaab06f
+./usr/share/kyua-cli/misc/index.html type=file uname=root gname=wheel mode=0444 size=4498 sha256=a02ae2d5b9adfa51beecef824596ad30b44172466333ad3468359469e2440dde
+./usr/share/kyua-cli/misc/report.css type=file uname=root gname=wheel mode=0444 size=2184 sha256=23478da2d7881ce8c40c7207507339b1bdb8ef5a6fcbe987a8ee2b715685432b
+./usr/share/kyua-cli/misc/test_result.html type=file uname=root gname=wheel mode=0444 size=2391 sha256=23a01a934de623a8a99cc312beab422b41c5341e878ab64356886862cf2a3c7a
+./usr/share/kyua-cli/store type=dir uname=root gname=wheel mode=0755
+./usr/share/kyua-cli/store/migrate_v1_v2.sql type=file uname=root gname=wheel mode=0444 size=14002 sha256=ed491c2a8deb801822e0ba9acfad1e170f4e331f83e3ebd53ae58a4c7d843ab6
+./usr/share/kyua-cli/store/schema_v2.sql type=file uname=root gname=wheel mode=0444 size=10784 sha256=935187f4d86e4ca19489b42ce55846f1fab2f9fb0fa8b38cc0aa231b067aabe3
+./usr/tests type=dir uname=root gname=wheel mode=0755
+./usr/tests/minix-posix type=dir uname=operator gname=wheel mode=0755
+./usr/tests/minix-posix/check-install type=file uname=bin gname=wheel mode=0755 size=1034 sha256=82ac6d6a0ae8135271b00883a256f2b52fc8ca527b58dacf34d630e8b27a7224
+./usr/tests/minix-posix/mod type=file uname=bin gname=wheel mode=0755 size=11990 sha256=c9f8427958deff20b7f5fe9d525d1cac7614359ec3df6f2aa23f29a1cae577be
+./usr/tests/minix-posix/run type=file uname=bin gname=wheel mode=0755 size=4504 sha256=c1b058fdebefe3d0e59ee6e3e2557df155c77fc8e9cadfc7159bc17b80f522f8
+./usr/tests/minix-posix/t10a type=file uname=bin gname=wheel mode=0755 size=12024 sha256=1491323217a155bf0b07f85fcb7c8d418f4e43c586b389858f9d542c6c687c8b
+./usr/tests/minix-posix/t11a type=file uname=bin gname=wheel mode=0755 size=13622 sha256=a53d2c6493715c5a7cd0e33dc0a28f6e81e41a7ebb267fc6501a6a3c94d04a74
+./usr/tests/minix-posix/t11b type=file uname=bin gname=wheel mode=0755 size=13050 sha256=857b60163928606158cc46c1f34eddc679255982ea3205c2dfbad2453443c4f9
+./usr/tests/minix-posix/t40a type=file uname=bin gname=wheel mode=0755 size=14031 sha256=3120175022b58c69073a5652e700626f1117be72f1e0fa170409d2e48f1fc94d
+./usr/tests/minix-posix/t40b type=file uname=bin gname=wheel mode=0755 size=14982 sha256=4e932668623cf7742787e086a311a032ce68094b141a83d4f611a30cd8f69a70
+./usr/tests/minix-posix/t40c type=file uname=bin gname=wheel mode=0755 size=15983 sha256=05e39d881f9d86a2c9cf3c370e4679cc3e97241f1d9c50377b0c0b70ad598765
+./usr/tests/minix-posix/t40d type=file uname=bin gname=wheel mode=0755 size=19486 sha256=97b03db0eb6da33fa4de38ea5b997388d1aa44559f7bc9a658bad036ede1b2d9
+./usr/tests/minix-posix/t40e type=file uname=bin gname=wheel mode=0755 size=17490 sha256=5cae0e0be08cb7d7c6d347d1509ac238dfc9375679f73785d244d5d16572ef96
+./usr/tests/minix-posix/t40f type=file uname=bin gname=wheel mode=0755 size=15844 sha256=f324e8f9ace033973802b0e1d504a43dcd5df6377f3b65849390fdc2fb95b576
+./usr/tests/minix-posix/t40g type=file uname=bin gname=wheel mode=0755 size=13063 sha256=f9bdddf5e4ed2533f13fd2306625df126034370d98c939b764d11216f4d41019
+./usr/tests/minix-posix/t60a type=file uname=bin gname=wheel mode=0755 size=12267 sha256=c2e81970c67a1b83b39a503d7d8534458a32e4787d99f7c82f07bc945cd2a96a
+./usr/tests/minix-posix/t60b type=file uname=bin gname=wheel mode=0755 size=12312 sha256=929f912828dd6686ac6a6608dd0b9dea0d198f3f49ff27918942a22fc67a8a43
+./usr/tests/minix-posix/t67a type=file uname=bin gname=wheel mode=0755 size=12372 sha256=c33f6fff2873d409a3e79912e7b3d8d80e84e544cadf66b6f3045250aa30ddf4
+./usr/tests/minix-posix/t67b type=file uname=bin gname=wheel mode=0755 size=12388 sha256=7cb484b24a93d336c66aa52c56ebfedcc8cac9abadb2fa47fe2695a2817abcfd
+./usr/tests/minix-posix/t68a type=file uname=bin gname=wheel mode=0755 size=12372 sha256=8fd93c641ebe2a0d494dfb248e3eccae4c6d16d2ddf6dd4fffe0d344e576cc08
+./usr/tests/minix-posix/t68b type=file uname=bin gname=wheel mode=0755 size=12388 sha256=e076f5d6b368e884c1f5ad8c350a78bcf60d923eaf5db4a65e1d598c355a0877
+./usr/tests/minix-posix/t84_h_nonexec.sh type=file uname=bin gname=wheel mode=0644 size=76 sha256=2d7270ca124cfd3c6d8d22d48d58f97ccdd4547bca15a94f2ddc45267b084f01
+./usr/tests/minix-posix/t84_h_spawn type=file uname=bin gname=wheel mode=0755 size=13047 sha256=66a34e7248b5c7e8c6cbd6a1ed44b9f52ab7e3a8bdd692dd2b96b5672cc3889d
+./usr/tests/minix-posix/t84_h_spawnattr type=file uname=bin gname=wheel mode=0755 size=13143 sha256=51260e32cc9242dcbef4cdd31cb4b4f4de3d6c7767cc528c643274b66c39053c
+./usr/tests/minix-posix/test1 type=file uname=bin gname=wheel mode=0755 size=14051 sha256=f848662bf0232e14e1e6735515617d95210a8ab16538a479cb8f0ce8592cb392
+./usr/tests/minix-posix/test1.c type=file uname=bin gname=wheel mode=0644 size=1554 sha256=464ea7e1b1d72acf7e9e84390ad833787654bbbdc8848e61bb25a90fc04cacbb
+./usr/tests/minix-posix/test10 type=file uname=bin gname=wheel mode=0755 size=14831 sha256=c9190e79acd769803de7bfcaab5b42a2ca2d45147df187e61e9927d4410d201b
+./usr/tests/minix-posix/test11 type=file uname=bin gname=wheel mode=0755 size=17261 sha256=5b213c28c2554532bb4b82b5e11e8bd39527d40302700582751e80ceb06087f6
+./usr/tests/minix-posix/test12 type=file uname=bin gname=wheel mode=0755 size=12288 sha256=01192a083a3a356423e48176393d4bee6ae4ada5283e4de71c018c03b6027630
+./usr/tests/minix-posix/test13 type=file uname=bin gname=wheel mode=0755 size=13162 sha256=e8087be11f49a7af577b2cb2989c0a59fcadc7698188d8ecd6b8b5b7773038e6
+./usr/tests/minix-posix/test14 type=file uname=bin gname=wheel mode=0755 size=13137 sha256=e26642e36d7abfa77107a5eff6555546e7172aaf16be7d27630abff56717992a
+./usr/tests/minix-posix/test15 type=file uname=bin gname=wheel mode=0755 size=38444 sha256=cd1e67c91cafff81909d9084707f52e162eaa37454cd8e7e18bf364fb3a7f37d
+./usr/tests/minix-posix/test16 type=file uname=bin gname=wheel mode=0755 size=26411 sha256=f2f1c727a1272743bc1ef93f984bf24fa4f3110a1bce9eda69c8e5337c17a3d6
+./usr/tests/minix-posix/test17 type=file uname=bin gname=wheel mode=0755 size=27896 sha256=a6c112902acf9b05ea54a20ac70df10ba358890adc7b0a3d94f47b2cc9e548cb
+./usr/tests/minix-posix/test18 type=file uname=bin gname=wheel mode=0755 size=31831 sha256=105fda3aa90574b03abcde3584ea830e54cded1e2661e2cb6850ca4593e6c476
+./usr/tests/minix-posix/test19 type=file uname=bin gname=wheel mode=0755 size=28096 sha256=96d067a0434f547dd0906bfc138ff107dee433d6771e95a3ad3d65181a0c59f4
+./usr/tests/minix-posix/test2 type=file uname=bin gname=wheel mode=0755 size=17806 sha256=9f462969305bfb59d0b1d459e5bf2fe57289446cf53afc9d8aaef6a3a4317a54
+./usr/tests/minix-posix/test20 type=file uname=bin gname=wheel mode=0755 size=18183 sha256=ea2f52f927bf57dd24c6352d0985844672f88c2c80ed40058fe59aeb2d4c3f6b
+./usr/tests/minix-posix/test21 type=file uname=bin gname=wheel mode=0755 size=32802 sha256=4364008ca7c02252a275ca43da78b84f82731750212fa68684aff23f7453f392
+./usr/tests/minix-posix/test22 type=file uname=bin gname=wheel mode=0755 size=15936 sha256=c079b16b285891b1880342fbb744b3dee4e8664db18b4cee735aa475e59b3320
+./usr/tests/minix-posix/test23 type=file uname=bin gname=wheel mode=0755 size=21709 sha256=ce64164f2d411e490ab63c2a7d3be947fb80d00f0df9c2c134fa55016a644203
+./usr/tests/minix-posix/test24 type=file uname=bin gname=wheel mode=0755 size=22030 sha256=ae0c233f7c8605ad673a97461d50846f54ad3d011eb921e1c8a72e1c679b90cc
+./usr/tests/minix-posix/test25 type=file uname=bin gname=wheel mode=0755 size=34499 sha256=fd5134e497e6004b68de1e8f60e16e1a150220562823dcf4f6c8d3e666532aa8
+./usr/tests/minix-posix/test26 type=file uname=bin gname=wheel mode=0755 size=18451 sha256=3e72927b38e93e731e6d08f23bee910f3384f3d5dbc3d3257e97bb33f927e8c7
+./usr/tests/minix-posix/test27 type=file uname=bin gname=wheel mode=0755 size=21811 sha256=f1569980919afd265cea828a4ef6c543a52c35dd09684f3d42ec5bdab569c699
+./usr/tests/minix-posix/test28 type=file uname=bin gname=wheel mode=0755 size=23243 sha256=224f5e5159f4e421cfe8ebbe0168bd4012d735e97d5c988b4726c6a6ce0c3d39
+./usr/tests/minix-posix/test29 type=file uname=bin gname=wheel mode=0755 size=17386 sha256=ee334e2694ad3354de4a3c2501c872aad695022846f44f4227887bdbf4fbc68e
+./usr/tests/minix-posix/test3 type=file uname=bin gname=wheel mode=0755 size=15620 sha256=5b09e0b2ac5cd6c69ca99706c037eff983c0e2cde5d9c89108e31f3eeed279c5
+./usr/tests/minix-posix/test30 type=file uname=bin gname=wheel mode=0755 size=21934 sha256=85bad88c94b08ec37b94e32ff6c652c8f36c29aff20dd1f59ff188337757c5e5
+./usr/tests/minix-posix/test31 type=file uname=bin gname=wheel mode=0755 size=18048 sha256=5201829f0e81c9ba9ab33048576992e3c7ee1dcc2149e5bbd7600269ee73f620
+./usr/tests/minix-posix/test32 type=file uname=bin gname=wheel mode=0755 size=21882 sha256=47cff1738da7d113072ff133ed5e718872f9de54f49bf289dd971566e824d4f4
+./usr/tests/minix-posix/test33 type=file uname=bin gname=wheel mode=0755 size=34224 sha256=d058263ecf1b0acbd96eb629dd8048c6e7b2cd14bb7684f067d91227ac0ce282
+./usr/tests/minix-posix/test34 type=file uname=bin gname=wheel mode=0755 size=30436 sha256=5f0bab9b1b8555d79c86cf0de4d087494c682be2fb12527ce8cc134834326a29
+./usr/tests/minix-posix/test35 type=file uname=bin gname=wheel mode=0755 size=22221 sha256=4f5dc0cdffb42f2eb91ade84b53063f9004d04512fc36e93b65999f6c0a26a22
+./usr/tests/minix-posix/test36 type=file uname=bin gname=wheel mode=0755 size=14186 sha256=0f60d7b35361562e6f8abd49d02edcc67d84d8626abfc2f9ebd5f5a87768ecbc
+./usr/tests/minix-posix/test37 type=file uname=bin gname=wheel mode=0755 size=51859 sha256=0b2726407384835764b169ffd0697b926a5b8014c79857cd73222ed60d0a5f46
+./usr/tests/minix-posix/test38 type=file uname=bin gname=wheel mode=0755 size=31093 sha256=a73689d6eb9a56d1e5cfabb34f5d084689ce225fc0ed6a35261c414c9c430fa8
+./usr/tests/minix-posix/test39 type=file uname=bin gname=wheel mode=0755 size=12374 sha256=f8004c23eb2d7739d916121e9a4052480764a9074fa0f157f70edb38f3c28927
+./usr/tests/minix-posix/test4 type=file uname=bin gname=wheel mode=0755 size=13738 sha256=82cdbe922d9cf6f9fd9e8dd6caf61445cdc7ad7b94991db38e219a44308419b7
+./usr/tests/minix-posix/test40 type=file uname=bin gname=wheel mode=0755 size=13037 sha256=b5074a97786c32b0af58780e992629e445def66cda3ac917cde076e2aaa05108
+./usr/tests/minix-posix/test41 type=file uname=bin gname=wheel mode=0755 size=22401 sha256=77fe66c7255e8043cfd47a15f8f205a61d497c9699e5a8ca30e0b4620a9781da
+./usr/tests/minix-posix/test42 type=file uname=bin gname=wheel mode=0755 size=52907 sha256=dba78045db80187dca2a479d2794cafaba07ba794bf86970e070fb3a43163b0b
+./usr/tests/minix-posix/test43 type=file uname=bin gname=wheel mode=0755 size=17625 sha256=8f87f3c31e206457938839114906ae8ec67f2da2f6d993be404b7d2a15657372
+./usr/tests/minix-posix/test44 type=file uname=bin gname=wheel mode=0755 size=13845 sha256=658ba650498da862b741bca7803b9677496256044aba91805a0e7921753f9b1f
+./usr/tests/minix-posix/test45 type=file uname=bin gname=wheel mode=0755 size=38976 sha256=2ea430064f1ce2a2e9bdd0e5b0e22c02995ee0dfed6487ee234242e8a294420f
+./usr/tests/minix-posix/test46 type=file uname=bin gname=wheel mode=0755 size=17864 sha256=4ee1db550bd92e48b79bcbd58cfee2f849953588c80dbe506f85716bc8513419
+./usr/tests/minix-posix/test47 type=file uname=bin gname=wheel mode=0755 size=17936 sha256=a9270ba771438d5f914479de674488da268029b3e3d8d29f20dfe5182ae9d953
+./usr/tests/minix-posix/test48 type=file uname=bin gname=wheel mode=0755 size=20545 sha256=666f07afdfba10ac33057049217cb3895077e6a9f04c09e54e44ce6f8a5a1cdb
+./usr/tests/minix-posix/test49 type=file uname=bin gname=wheel mode=0755 size=17706 sha256=31a1923ae72191f7847c94a46a7af2492ab97f2f549c1a6f85e626a1b107811f
+./usr/tests/minix-posix/test5 type=file uname=bin gname=wheel mode=0755 size=19353 sha256=c58e84ebc56d45441b2405a274888ca9d77b0340596ed9cd7eebc152768cbf6f
+./usr/tests/minix-posix/test50 type=file uname=bin gname=wheel mode=0755 size=23805 sha256=9487a89710ac194f391c8405d6da8133eefc96440fd8edb9eec87badf48b9408
+./usr/tests/minix-posix/test51 type=file uname=bin gname=wheel mode=0755 size=18520 sha256=9b8a6c1cff2154ad1a492b36f817ff070db30faf334be6782ddf12438c2bef0c
+./usr/tests/minix-posix/test52 type=file uname=bin gname=wheel mode=0755 size=14196 sha256=076b111200c7ed0b910919ca63679843987525b0547b433b5505f1722893771f
+./usr/tests/minix-posix/test53 type=file uname=bin gname=wheel mode=0755 size=19691 sha256=1fb7672d76116904aadf00acacff02573305887ca8aa19f3ba09f18682036686
+./usr/tests/minix-posix/test54 type=file uname=bin gname=wheel mode=0755 size=13239 sha256=d4541e04873f0a18435d6153438e18158f9fa5d2d10efdf44c55c2d5406e2908
+./usr/tests/minix-posix/test55 type=file uname=bin gname=wheel mode=0755 size=17487 sha256=79440082f93b0016bf76ae722e14421041142838e405485311f6a8f46591e386
+./usr/tests/minix-posix/test56 type=file uname=bin gname=wheel mode=0755 size=69154 sha256=93c4eaab4ff3b4e8dc5f3d060cd7966193a8aca1aebbf1950810b0b2928bcd8d
+./usr/tests/minix-posix/test57 type=file uname=bin gname=wheel mode=0755 size=14107 sha256=01517289dd6f07255d74c81a762b756bd83d8892594a0e2e509c743e0f2a96a3
+./usr/tests/minix-posix/test58 type=file uname=bin gname=wheel mode=0755 size=14860 sha256=559c2af1015f4d4f55fae30fed46abb72f0a5235893f035f9571162c416ebbc1
+./usr/tests/minix-posix/test59 type=file uname=bin gname=wheel mode=0755 size=40467 sha256=df6dd29e601f6bce010c81590601dc3545031d97b90e6d4effce9a28560ff75c
+./usr/tests/minix-posix/test6 type=file uname=bin gname=wheel mode=0755 size=13958 sha256=324f11c1944eca9b12be8a0ff307683b230ef77ebef08ac15ca35cff87f8725a
+./usr/tests/minix-posix/test60 type=file uname=bin gname=wheel mode=0755 size=15858 sha256=9d23a3e1abf7ba68811aeadb2b878c769bb394cd8dfb1aeb74a2330c26568811
+./usr/tests/minix-posix/test61 type=file uname=bin gname=wheel mode=0755 size=14616 sha256=b9eec00e974653b4ac663da2ea33fc2375ba0de013ad50aa47525bc37a46c6ce
+./usr/tests/minix-posix/test62 type=file uname=bin gname=wheel mode=0755 size=13250 sha256=35fa70e91620f3b663103db06234ad12d4f1b934ecd12139fb97e362c81aeb95
+./usr/tests/minix-posix/test63 type=file uname=bin gname=wheel mode=0755 size=13067 sha256=618570be949bb3b5ff9f657cf02f8aa752b45dc5d9b0688bddf54201bc235c65
+./usr/tests/minix-posix/test64 type=file uname=bin gname=wheel mode=0755 size=13090 sha256=6b2a0ca1986759472080c19cb5bb3f23945fba320d3c43fc7780dea0c17b2b85
+./usr/tests/minix-posix/test65 type=file uname=bin gname=wheel mode=0755 size=14746 sha256=72c2701bb71fac90d7c18446f837e9db1a6e24be5d91ec47453a6d1083d2c3ad
+./usr/tests/minix-posix/test66 type=file uname=bin gname=wheel mode=0755 size=224973 sha256=f54f6dc1b8f52680840cee29cd4d3acb1573c624afb673b4c56121f63367bfa4
+./usr/tests/minix-posix/test67 type=file uname=bin gname=wheel mode=0755 size=16938 sha256=eb6732b71847beae4aa81b2fedf7ab5d04dd2273c96d894de626ae56c6b80157
+./usr/tests/minix-posix/test68 type=file uname=bin gname=wheel mode=0755 size=22504 sha256=650bf8a46d65c47488dca76c29171ad1638ed4f08c0b0729ad5d0f04e260cd66
+./usr/tests/minix-posix/test69 type=file uname=bin gname=wheel mode=0755 size=14833 sha256=ae0d03597c91dc2d19ef07df1828682ecbe1f03717c865b9841ec44fea60a4d4
+./usr/tests/minix-posix/test7 type=file uname=bin gname=wheel mode=0755 size=34608 sha256=37a8ce19d1ce59a5c95c41bba369f6275b289c9c3e0af04771906509e66867d5
+./usr/tests/minix-posix/test70 type=file uname=bin gname=wheel mode=0755 size=13345 sha256=cf11908924ea437e4741fb5b68bf1821be2b163f2f5c9748d85250eb95123ba7
+./usr/tests/minix-posix/test71 type=file uname=bin gname=wheel mode=0755 size=17940 sha256=0e78600ff13e8fc61f85c258c7fc6846938967528efac2ea27e5612c3b85be04
+./usr/tests/minix-posix/test72 type=file uname=bin gname=wheel mode=0755 size=39905 sha256=d856b6c031a7a61eb88476e410ac0bd1fa6c08942fafe8ebf4212aa51ef1edfe
+./usr/tests/minix-posix/test73 type=file uname=bin gname=wheel mode=0755 size=13745 sha256=c85035081c5596bc583dfe0d8a28c4a5f21a48f4f821749be46c1e7409322930
+./usr/tests/minix-posix/test74 type=file uname=bin gname=wheel mode=0755 size=31195 sha256=13fe840661f9e8636cdb5d35c290564fcca10db2e47ccc93541869f6588d29e7
+./usr/tests/minix-posix/test75 type=file uname=bin gname=wheel mode=0755 size=14622 sha256=0c4b413b197e7121c75bbb3e7a16e1cc510664fab9886bb6529b724e64803cd7
+./usr/tests/minix-posix/test76 type=file uname=bin gname=wheel mode=0755 size=20124 sha256=7c52a27fcbbe97d75368ef152794b9dc5f10ff7cf87530d0c2266328df8b7182
+./usr/tests/minix-posix/test77 type=file uname=bin gname=wheel mode=0755 size=31707 sha256=7dce0dea17386751e994396e92b89943aeb0e7cdae10725cd196ee6414dace4b
+./usr/tests/minix-posix/test78 type=file uname=bin gname=wheel mode=0755 size=15433 sha256=24981cb18f047a89c780e1823e5d66f622371cca9f0276931d8c821d436d5d83
+./usr/tests/minix-posix/test79 type=file uname=bin gname=wheel mode=0755 size=19307 sha256=27d3d9bb885871b676e94168daf8513f2d11bddd67443088d6fe08f580ef8985
+./usr/tests/minix-posix/test8 type=file uname=bin gname=wheel mode=0755 size=17519 sha256=4e7116e0e83667f0e5b181b636c20452fac36b69b2d9775fb7fe31030fe610ce
+./usr/tests/minix-posix/test80 type=file uname=bin gname=wheel mode=0755 size=45013 sha256=afa14f02ee247d1e1ea8a4d588005a7de52ef99d7558a7be2d5da33f94816845
+./usr/tests/minix-posix/test81 type=file uname=bin gname=wheel mode=0755 size=44917 sha256=09c495a3f32b6e3a0236477d3fbffeac41e1edc2e1027abc740af199bb536b2d
+./usr/tests/minix-posix/test82 type=file uname=bin gname=wheel mode=0755 size=19827 sha256=28edbce1874e3926cfb71412b84d6b57ca325e41eeaac4dab752c658c817cf2d
+./usr/tests/minix-posix/test83 type=file uname=bin gname=wheel mode=0755 size=29363 sha256=292feff795cc3f81bb6e956278ccf63bef8cb2b51b41484408c34521b31d4f5d
+./usr/tests/minix-posix/test84 type=file uname=bin gname=wheel mode=0755 size=17115 sha256=850d30ecd49b6236951f753deb539848e1cd11a27c33578457e9f24b0cc11652
+./usr/tests/minix-posix/test85 type=file uname=bin gname=wheel mode=0755 size=19100 sha256=a145960a21ac482daae313ac309509914e4d4cc06ed045d4ee1e4912915298bf
+./usr/tests/minix-posix/test86 type=file uname=bin gname=wheel mode=0755 size=13084 sha256=e9a8a2e39bbbf132b0dca27115e2beb5ae1b93bd6dd3c17f883c397cb512c053
+./usr/tests/minix-posix/test87 type=file uname=bin gname=wheel mode=0755 size=108629 sha256=45d072f503f7c89a8b41baa225b48433670ffddd7752cd1ca7de0636e5202d67
+./usr/tests/minix-posix/test88 type=file uname=bin gname=wheel mode=0755 size=94967 sha256=5f7ae40585591026004c5e2d7089c5ef97dfa686655d4107ca5b8935470e05f2
+./usr/tests/minix-posix/test89 type=file uname=bin gname=wheel mode=0755 size=23338 sha256=011860a71c289fcdc7291a62d8baff325605cb7b8a8a2c26484855c5b22c7d34
+./usr/tests/minix-posix/test9 type=file uname=bin gname=wheel mode=0755 size=17757 sha256=23f7a886d7475b52a30a5f4460ad8f993091335ccac1456e4aff3f536d5256ab
+./usr/tests/minix-posix/test90 type=file uname=bin gname=wheel mode=0755 size=140854 sha256=f2965eb7ab093160ee2e2a01799e209a4c0aecde648074b52689f9b4a5f3afdc
+./usr/tests/minix-posix/test91 type=file uname=bin gname=wheel mode=0755 size=163860 sha256=83410761a773ffce2e8b24cf78b3ff252f33ca3f79b2fe4bdd15b7fafe9b2d5b
+./usr/tests/minix-posix/test92 type=file uname=bin gname=wheel mode=0755 size=103731 sha256=69d655aeb5f635fbb532ec3be6b92539a91014fa89432e05b7cb86e959fe78c8
+./usr/tests/minix-posix/test93 type=file uname=bin gname=wheel mode=0755 size=81014 sha256=c6041dfa782d896b5734dd8e5dc15cb6b03047bf20b241cd668dbfd850bb5600
+./usr/tests/minix-posix/test94 type=file uname=bin gname=wheel mode=0755 size=59758 sha256=ad3cc0a2b3eaafa84e9b745a136043d7220a064ad00a6fdbbb7039d577ef136b
+./usr/tests/minix-posix/testinterp type=file uname=bin gname=wheel mode=0755 size=232 sha256=58f83d04b01aec1bb86251869bec543df0645cfa9ad2bf259f9ff9266280e150
+./usr/tests/minix-posix/testisofs type=file uname=bin gname=wheel mode=0755 size=5963 sha256=85109b985a982b0b4cc28963207a8351d1e54280c5b226e239bef912254e4df3
+./usr/tests/minix-posix/testkyua type=file uname=bin gname=wheel mode=0755 size=415 sha256=fdbb8b10ac56c5edb4e79f7708a1b479d80d8bbbb58ee6094acd4bc05e3922f9
+./usr/tests/minix-posix/testmfs type=file uname=bin gname=wheel mode=0755 size=1634 sha256=0f023bf95517ad0a7120d25f93b93dcd75d85a9d39b911d15d78ed7b32d0803d
+./usr/tests/minix-posix/testrelpol type=file uname=bin gname=wheel mode=0755 size=10566 sha256=766cd2e0e755303c9f8853b6679a63554da346f1bf9275603fdc2eeb7ab7e2fa
+./usr/tests/minix-posix/testrmib type=file uname=bin gname=wheel mode=0755 size=2821 sha256=be2d471cfe649fcc1443b62182b31e57e5d3ada04b0cdb1df8025567e58069b4
+./usr/tests/minix-posix/testsh1 type=file uname=bin gname=wheel mode=0755 size=6514 sha256=f44939269d0e05b1b190ad5c4657c9be69b78c4f159749bc90a67e1378586f4e
+./usr/tests/minix-posix/testsh2 type=file uname=bin gname=wheel mode=0755 size=6071 sha256=b1b29436876ef56c998f4627c65db2d8598b8fe70406f05ff36f4150a4535561
+./usr/tests/minix-posix/testvm type=file uname=bin gname=wheel mode=0755 size=307607 sha256=d75e56411261be7019513bc23348ed77b909962c2141f15343e6afac93170ae4
+./usr/tests/minix-posix/testvm.conf type=file uname=bin gname=wheel mode=0644 size=404 sha256=f2ed54ef290a1af58673c33c28170ccbb52e6fd2bb9f3a2ddf15229475cbcaaf
+./usr/tests/minix-posix/testvnd type=file uname=bin gname=wheel mode=0755 size=6373 sha256=43351bc19f74c860453d1783b23cb7adf4a6ae5e5582e3ad9ecc5ce2be5cd847
+./usr/tests/minix-posix/tvnd type=file uname=bin gname=wheel mode=0755 size=13085 sha256=9fdfc88ced608826b3e9502c23688e08115225c1ebfc1da9de386caae2ee9fad
+./usr/tests/minix-posix/blocktest type=dir uname=operator gname=wheel mode=0755
+./usr/tests/minix-posix/blocktest/README type=file uname=root gname=wheel mode=0644 size=190 sha256=bba07e647b9c3939c8cc1287847bf0789f818f5b7cacd9f634d8af804ae8ce17
+./usr/tests/minix-posix/blocktest/blocktest type=file uname=root gname=wheel mode=0755 size=109994 sha256=1b9a3c84d4d9b101300c741231b43f0647bc6179e1e072d3bc8de8449d7f89d7
+./usr/tests/minix-posix/blocktest/support.sh type=file uname=root gname=wheel mode=0644 size=847 sha256=0e70b4f2bcbb331a59ac5313bee94b5007a3503ade3f0a427862251335e55aef
+./usr/tests/minix-posix/blocktest/system.conf type=file uname=root gname=wheel mode=0644 size=23 sha256=bd8d05e953b3e24ebad4f83940a32c6097828af81505e6a031d1c3795bc99a40
+./usr/tests/minix-posix/blocktest/test.sh type=file uname=root gname=wheel mode=0644 size=3411 sha256=55a576125e5b04a41ca7cf68ff7f6935ccb098d59ebb5c21de14895bcfe6b51e
+./usr/tests/minix-posix/ddekit type=dir uname=operator gname=wheel mode=0755
+./usr/tests/minix-posix/ddekit/ddekittest type=file uname=root gname=wheel mode=0755 size=509 sha256=e426681f4948eba4369a1955cc3d0df574359df9ccac3261aae9a4b6a58fade1
+./usr/tests/minix-posix/ddekit/ddekittest_driver type=file uname=root gname=wheel mode=0755 size=77407 sha256=7e20cdf6c2780647b8aa458653deb7c8d51468880b62ca3c2023b241ebf53b72
+./usr/tests/minix-posix/ddekit/system.conf type=file uname=root gname=wheel mode=0644 size=62 sha256=6d694e0bd032fa33af860dd3a63ab33efe6f484f68ed3bcc13048c86e2846dd6
+./usr/tests/minix-posix/rmibtest type=dir uname=operator gname=wheel mode=0755
+./usr/tests/minix-posix/rmibtest/rmibtest type=file uname=root gname=wheel mode=0755 size=66239 sha256=22f42e44b48bd2980e121574fc8193677c22ccc54848fbbe7f3d7aab3b33b752
+./usr/tests/minix-posix/rmibtest/rmibtest.conf type=file uname=root gname=wheel mode=0644 size=22 sha256=ae468bc3909503d53bd04f5313368b11aa96b02f4da58d1ee9d407146db7f7d4
+./var type=dir uname=root gname=wheel mode=0755
+./var/db type=dir uname=root gname=wheel mode=0755
+./var/db/obsolete type=dir uname=root gname=wheel mode=0755
+./var/db/obsolete/minix-tests type=file uname=root gname=wheel mode=0644 size=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 tags=etc_pkg

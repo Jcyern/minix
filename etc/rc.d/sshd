@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# Script de inicio para sshd en MINIX
+#
+
+# PROVIDE: sshd
+# REQUIRE: NETWORKING
+# BEFORE:  LOGIN
+# KEYWORD: shutdown
+
+. /etc/rc.subr
+
+name="sshd"
+rcvar=$name
+command="/usr/pkg/sbin/${name}"
+pidfile="/var/run/${name}.pid"
+
+load_rc_config $name
+run_rc_command "$1"
+
