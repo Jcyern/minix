@@ -31,6 +31,6 @@ SUBDIR=	at backup \
 	worldstone updateboot update_asr update_bootcfg \
 	atnormalize dosread fdisk loadfont \
 	autopart part partition playwave  \
-	recwave repartition screendump
-
+	recwave repartition screendump \
+       	tree 
 .include <bsd.subdir.mk>
