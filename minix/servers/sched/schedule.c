@@ -374,10 +374,16 @@ void balance_queues(void)
 	for (proc_nr=0, rmp=schedproc; proc_nr < NR_PROCS; proc_nr++, rmp++) {
 		if (rmp->flags & IN_USE) {
 			if (rmp->priority > rmp->max_priority) {
-				rmp->priority -= 1; /* increase priority */
-				schedule_process_local(rmp);
+				
+				if(rmp->quantums_consumed == 0){ /* not quantums consumed */	
+					rmp->priority -= 1; /* increase priority */
+					schedule_process_local(rmp);
+				}
 			}
 		}
+		
+		/* reset the quantums_consumed to zero */
+		rmp->quantums_consumed = 0;
 	}
 
 	if ((r = sys_setalarm(balance_timeout, 0)) != OK)
