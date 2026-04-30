@@ -96,20 +96,8 @@ int do_noquantum(message *m_ptr)
 	}
 
 	rmp = &schedproc[proc_nr_n];
-
-	/* inc number of quantums consumed */
-	rmp -> quantums_consumed ++;
-	printf("Proceso %d consumió un quantum, total=%d\n", rmp->endpoint, rmp->quantums_consumed);
-
-
-	/* priority drop becouse is the counter is bigger than our maximun */
-	if(rmp -> quantums_consumed >= N ){
-		if (rmp->priority < MIN_USER_Q) {
-			rmp->priority += 1; /* lower priority */
-			printf("Proceso %d bajó prioridad a %dn", rmp->endpoint, rmp->priority);
-
-		}
-		rmp -> quantums_consumed = 0;
+	if (rmp->priority < MIN_USER_Q) {
+		rmp->priority += 1; /* lower priority */
 	}
 
 	if ((rv = schedule_process_local(rmp)) != OK) {
@@ -173,10 +161,6 @@ int do_start_scheduling(message *m_ptr)
 	rmp->endpoint     = m_ptr->m_lsys_sched_scheduling_start.endpoint;
 	rmp->parent       = m_ptr->m_lsys_sched_scheduling_start.parent;
 	rmp->max_priority = m_ptr->m_lsys_sched_scheduling_start.maxprio;
-	
-	/* Init quantoms_consumed */
-	rmp-> quantums_consumed = 0;
-
 	if (rmp->max_priority >= NR_SCHED_QUEUES) {
 		return EINVAL;
 	}

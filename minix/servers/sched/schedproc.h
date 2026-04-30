@@ -15,12 +15,6 @@
 #define CONFIG_MAX_CPUS 1
 #endif
 
-/* max quantums before  priority drop  */ 
-#define N 3 
-
-
-
-
 /**
  * We might later want to add more information to this table, such as the
  * process owner, process group or cpumask.
@@ -39,9 +33,6 @@ EXTERN struct schedproc {
 	bitchunk_t cpu_mask[BITMAP_CHUNKS(CONFIG_MAX_CPUS)]; /* what CPUs is the
 								process allowed
 								to run on */
-
-	/* number  of quantums consumed by the process */
-	int quantums_consumed;
 } schedproc[NR_PROCS];
 
 /* Flag values */
